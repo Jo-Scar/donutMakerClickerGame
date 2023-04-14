@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Baker Baking Company</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="stylesV1.css">
+<style>
+</style>
+
+<!-- Nav Bar Section -->
+<button onclick="openNav()" class="dropbtn">&#9776; Fred's Donut Maker</button>
+<!-- <div class="dropDown">
+    <span onclick="openNav()">Donut Maker span on click</span>
+    <div id="myDropdown" class="dropDown-content">
+        <a href="#fred"></a>
+        <a href="#Donut Clicker"></a>
+        <a href="#links"></a>
+    </div>
+    
+</div> -->
+<hr>
+<br>
+
+<body>
+    <!--The overlay-->
+    <div id="myNav" class="overlay">
+        <!--Button to close the overlay nav-->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <!--Overlay content-->
+        <div class="overlay-content">
+            <a href="#aboutBakerCompany">Baker Baking Company</a>
+            <a href="#donutMakerGame"> Donut Clicker</a>
+            <a href="https://jo-scar.github.io/">GitHub</a>
+            <a href="https://www.linkedin.com/in/jo-scar">LinkedIn</a>
+        </div>
+    </div>
+
+    <form id="resetGame">
+        <!-- Iteration 1 -->
+
+        <!-- FEATURE 1 : Have a way to count donuts and retrieve donut count
+ -->
+        <a id="donutMakerGame"></a>
+        <div id="donut"></div>
+        <br>
+        <hr>
+        <button id="myBtn" type="button">Click Me To Make a Donut!</button>
+        <br>
+        <div id="counter">Number of Donuts : </div>
+
+        <!-- FEATURE 2 : Be able to purchase the first Auto Clicker with 100 donuts -->
+
+        <br>
+        <!-- Feature 3 : view the cost of auto clicker-->
+        <div id="autoClickerCost"></div>
+        <button id="buyAuto" type="button">Click Me To Buy an Auto Clicker!</button>
+        <div id="autoCounter">Number of Auto Clickers : </div>
+
+        <!--FEATURE 5 : The amount of Auto Clickers affect the amount of donuts added when an ‘Activate Auto Clickers’ event is called.
+    -->
+
+        <!-- Iteration 2 -->
+
+        <br>
+        <div id="donutMultiplier"></div>
+        <button id="buyMulti" type="button">Click Me To Buy a Donut Multiplier!</button>
+        <div id="multiplierCount">Number of Donut Multipliers : </div>
+        <br>
+        <!-- reset button -->
+        <div id="resetButton">
+        <button id="resetGameButton" type="button
+        ">Reset Game</button>
+        </div>
+
+    </form>
+        <br>
+        <hr>
+        <!-- <a id="aboutBakerCompany"></a>
+        <button onclick=openNav() type="button" class="dropbtn">About</button>
+        <div id="aboutSection" class="overlay">
+            <h2>Fred the Baker Baking Company</h2>
+            <P>Fred the Baker, loves to make donuts</P>
+            <p>est. 1874</p>
+            <div class="overlay-content"> -->
+            </div>
+        </div>
+        <!-- Use any element to open/show the overlay nav menu-->
+
+    <script src="DonutMaker.js"></script>
+</body>
+
+</html>
