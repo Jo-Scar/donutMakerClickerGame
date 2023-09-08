@@ -14,7 +14,7 @@ let displayMultiplierCount = document.getElementById('multiplierCount');
 
 let donutCount = 0;
 let clickerCount = 0;
-let autoClickerCost = 100;
+let autoClickerCost = 50;
 let activateAutoClickerCost = 1;
 let multiplierForDonut = 1;
 let donutValue = 1;
